@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url(../img/background.jpg);
+    background-size: 1000px;
+    padding-bottom: 3.2%;
+}
+
+.ContainHome{
+    display: block;
+    background-color: #fff;
+    height: 70px;
+    margin-bottom: 10px;
+    text-align:left;   
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+}
+
+.ActualCountries{
+    margin-top: 50px;
+}
+
+.searcher{
+    color: #fff;
+    width: 300px;
+    height: 30px;
+    display: inline-block;
+    user-select: none;
+    border-radius: 5px;
+    border: none;
+    background: transparent;
+    resize: none;
+    outline: none;
+}
+
+.searcher::placeholder{
+    
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    color: #ffffff;
+    font-size: 15px;
+    
+
+}
+
+.container{
+    padding-left: 5px;
+    width: 200px;
+    height: 30px;
+    display: inline-flex;
+    user-select: none;
+    border-radius: 5px;
+    border-color: #747474;
+    background: #555555;
+    margin-left: 10px;
+}
+
+.actual_countries{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    
+}
+
+

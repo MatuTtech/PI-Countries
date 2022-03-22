@@ -1,0 +1,68 @@
+.ContainNavBar{
+    display:  flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #1f1f1f;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+  
+.logo{
+    margin: 10px;
+    width: 170px;
+    height: 85px;
+    object-fit: cover;
+    margin-left: 70px;
+}
+
+.ContainLinks{
+    margin: 20px;
+   flex: 1;
+   text-align: right;
+   justify-content: space-between;
+
+}
+
+.ContainLinks > li {
+    list-style: none;
+    display: inline-block; 
+   
+}
+
+#link {
+    user-select: none;
+    position: relative;
+    display: inline-block;
+    text-decoration:none;
+    margin-right: 100px;
+    color: #ffff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding: 0 10px;  
+}
+
+#link::after{
+    content: "";
+    position: absolute;
+    background-color: #ffff;
+    height: 0.175rem;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: transform 0.5s ease;
+}
+
+#link::after{
+    transform: scale(0,1);
+}
+
+#link:hover:after{
+    transform: scale(1, 1);
+}
+
+@media (max-width: 1052){ 
+ #Link{
+    font-size: 10px;
+ }   
+}

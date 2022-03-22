@@ -1,0 +1,29 @@
+.wrapper{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.paginationContain{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 75px;
+}
+
+
+.PageNum{
+    user-select: none;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #333333;
+    color: white;   
+}
+
+.PageNum:hover{
+    background-color: #02a75a;
+}
+
+

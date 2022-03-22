@@ -1,0 +1,64 @@
+.ContainCountries{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat( auto-fit, minmax(10rem, 1fr));
+    column-width: 50px;
+    margin-right: 39px;
+    margin-top: 3%;
+    padding:3% ;  
+}
+
+.ContainGrid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12.5px;
+}
+
+.ContainGrid > li{
+    
+    display: flex;
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba(150, 150, 150, 0.18);
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    grid-column: span 2;
+    justify-content: center;
+    max-width: 340px;
+    transition: 0.75s;
+}
+
+.ContainGrid > li:hover{
+    background: rgba(216, 216, 216, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(185, 185, 189, 0);
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );border-radius: 10px;
+}
+
+.Link {
+    text-decoration: none;  
+}
+
+.card > p{
+    user-select: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.flag{
+    margin-top: 10px;
+    width: 90%; 
+    height: 200px;
+}
+
+
+
+
+
+
